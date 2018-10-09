@@ -52,3 +52,4 @@
 * https://m1el.github.io/wasm-asteroids/demo/demo.html (Asteroids game)
 * https://www.funkykarts.rocks/demo.html (Runner game)
 * https://jakedeichert.github.io/wasm-astar/ (Pathfinding algorithm written in Rust)
+* https://github.com/mbasso/awesome-wasm (Aggregated resources)
