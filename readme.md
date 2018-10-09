@@ -18,14 +18,14 @@
 
 1. Write code in C, C++, Rust, etc.
 2. Compile to WebAssembly .wasm file
-..* Online via: https://mbebenita.github.io/WasmExplorer/
-..* Produces a WebAssembly Text Format (WAT) file, which is a human-readable version of the WASM file
-..* WASM file exports (i.e. exposes) functions to Javascript
-..* '_Z7' prefix and 'i' suffix are debug markers introduced by the C++ compiler
+  * Online via: https://mbebenita.github.io/WasmExplorer/
+  * Produces a WebAssembly Text Format (WAT) file, which is a human-readable version of the WASM file
+  * WASM file exports (i.e. exposes) functions to Javascript
+  * `_Z7` prefix and `i` suffix are debug markers introduced by the C++ compiler
 3. Asynchronously call the browser WebAssembly API
-..* Stream WASM file into an array buffer (typed binary data, processed faster than regular array)
-..* Compile bytes into a WebAssembly module (i.e. class)
-..* Instantiate the module (i.e. instance of class). Contains memory and functions.
+  * Stream WASM file into an array buffer (typed binary data, processed faster than regular array)
+  * Compile bytes into a WebAssembly module (i.e. class)
+  * Instantiate the module (i.e. instance of class). Contains memory and functions.
 
 ## Limitations
 
