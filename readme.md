@@ -3,6 +3,7 @@
 ## Quickstart
 
 1. Checkout code and run index.htm in browser using a webserver (or statically hosted on the web)
+ * e.g. terminal command (assuming http-server is installed): `/usr/bin/http-server index.html`
 
 ## What?
 
